@@ -250,7 +250,7 @@ ubuntu_dep() {
   install_packages "software-properties-common apt-transport-https ca-certificates gnupg"
 
   # Add Ubuntu universe repo
-  add-apt-repository universe -y
+  # add-apt-repository universe -y
 
   # Add PPA for PHP (we need 8.1)
   LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
